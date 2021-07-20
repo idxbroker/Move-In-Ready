@@ -1,0 +1,301 @@
+# Copyright (C) 2016 Agent Evolution
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Move-in Ready 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-05-03 17:40:11+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+#: functions.php:6
+msgid "Move-in Ready Child Theme"
+msgstr ""
+
+#: functions.php:23
+msgid "Green"
+msgstr ""
+
+#: functions.php:24
+msgid "Red"
+msgstr ""
+
+#: functions.php:25
+msgid "Purple"
+msgstr ""
+
+#: functions.php:26
+msgid "Grey"
+msgstr ""
+
+#: functions.php:27
+msgid "Use Customizer"
+msgstr ""
+
+#: functions.php:48
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:48
+msgid "Top Header Right"
+msgstr ""
+
+#: functions.php:61
+msgid "Home Top Left"
+msgstr ""
+
+#: functions.php:62
+msgid ""
+"This is the Top Left section of the Home page, recommended to use a slider "
+"or IDX carousel widget."
+msgstr ""
+
+#: functions.php:68
+msgid "Home Top Right"
+msgstr ""
+
+#: functions.php:69
+msgid ""
+"This is the Top Right section of the Home page, recommended to use an IDX "
+"search widget."
+msgstr ""
+
+#: functions.php:75
+msgid "Home Middle"
+msgstr ""
+
+#: functions.php:76
+msgid ""
+"This is the Middle section of the Home page, recommended for calls to "
+"action using theme shortcodes."
+msgstr ""
+
+#: functions.php:82
+msgid "Home Bottom Left"
+msgstr ""
+
+#: functions.php:83
+msgid "This is the Bottom Left section of the Home page."
+msgstr ""
+
+#: functions.php:89
+msgid "Home Bottom Right"
+msgstr ""
+
+#: functions.php:90
+msgid "This is the Bottom Right section of the Home page."
+msgstr ""
+
+#: lib/customizer.php:21
+msgid "Custom Colors"
+msgstr ""
+
+#: lib/customizer.php:51
+msgid "Primary Color"
+msgstr ""
+
+#: lib/customizer.php:66
+msgid "Primary Hover Color"
+msgstr ""
+
+#: lib/customizer.php:81
+msgid "Primary Color Light"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:30
+msgid "Displays a carousel of properties"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:48
+msgid "<i class=\\\"fas fa-chevron-circle-left\\\"></i><span>Prev</span>"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:49
+msgid "<i class=\\\"fas fa-chevron-circle-right\\\"></i><span>Next</span>"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:297
+msgid "Properties"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:312
+msgid "Title:"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:317
+msgid "Properties to Display:"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:319
+msgid "Featured"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:320
+msgid "Sold/Pending"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:321
+msgid "Supplemental"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:322
+msgid "Historical"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:323
+msgid "Use Saved Link"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:335
+msgid "Listings to show without scrolling:"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:340
+msgid "Max number of listings to show:"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:345
+msgid "Sort order:"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:347
+msgid "Highest to Lowest Price"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:348
+msgid "Lowest to Highest Price"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:353
+msgid "Autoplay?"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:359
+msgid "Only show content for (optional):"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:361
+msgid "All"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:362
+msgid "State"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:363
+msgid "City"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:364
+msgid "Postal Code"
+msgstr ""
+
+#: lib/widgets/Equity_MIR_IDX_Carousel_Widget.php:369
+msgid ""
+"Enter location to show for: <br /><em> Values can be comma separated.<br "
+"/>For State, use 2 letter abbreviation.</em>"
+msgstr ""
+
+#: single-listing-classical.php:1041 single-listing-elegant.php:991
+#: single-listing-luxurious.php:947 single-listing-solid.php:1002
+#: single-listing-spacious.php:998
+msgid "View more <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: single-listing-classical.php:1068 single-listing-classical.php:1070
+#: single-listing-elegant.php:1017 single-listing-elegant.php:1019
+#: single-listing-luxurious.php:971 single-listing-luxurious.php:973
+#: single-listing-solid.php:1027 single-listing-solid.php:1029
+#: single-listing-spacious.php:1023 single-listing-spacious.php:1025
+msgid "Price:"
+msgstr ""
+
+#: single-listing-classical.php:1076 single-listing-elegant.php:1025
+#: single-listing-luxurious.php:979 single-listing-solid.php:1035
+#: single-listing-spacious.php:1031
+msgid "Address:"
+msgstr ""
+
+#: single-listing-classical.php:1077 single-listing-elegant.php:1026
+#: single-listing-luxurious.php:980 single-listing-solid.php:1036
+#: single-listing-spacious.php:1032
+msgid "City:"
+msgstr ""
+
+#: single-listing-classical.php:1078 single-listing-elegant.php:1027
+#: single-listing-luxurious.php:981 single-listing-solid.php:1037
+#: single-listing-spacious.php:1033
+msgid "State:"
+msgstr ""
+
+#: single-listing-classical.php:1079 single-listing-elegant.php:1028
+#: single-listing-luxurious.php:982 single-listing-solid.php:1038
+#: single-listing-spacious.php:1034
+msgid "Zip Code:"
+msgstr ""
+
+#: single-listing-classical.php:1115 single-listing-elegant.php:1064
+#: single-listing-luxurious.php:1018 single-listing-solid.php:1074
+#: single-listing-spacious.php:1070
+msgid "Tagged Features:"
+msgstr ""
+
+#: single-listing-classical.php:1123 single-listing-elegant.php:1072
+#: single-listing-luxurious.php:1026 single-listing-solid.php:1082
+#: single-listing-spacious.php:1078
+msgid "Home Summary"
+msgstr ""
+
+#: single-listing-classical.php:1125 single-listing-elegant.php:1074
+#: single-listing-luxurious.php:1028 single-listing-solid.php:1084
+#: single-listing-spacious.php:1080
+msgid "Kitchen Summary"
+msgstr ""
+
+#: single-listing-classical.php:1127 single-listing-elegant.php:1076
+#: single-listing-luxurious.php:1030 single-listing-solid.php:1086
+#: single-listing-spacious.php:1082
+msgid "Living Room"
+msgstr ""
+
+#: single-listing-classical.php:1129 single-listing-elegant.php:1078
+#: single-listing-luxurious.php:1032 single-listing-solid.php:1088
+#: single-listing-spacious.php:1084
+msgid "Master Suite"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Move-in Ready"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.agentevolution.com/kb/move-in-ready/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Modern Real Estate Child Theme for Equity Framework"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Agent Evolution"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.agentevolution.com/"
+msgstr ""
