@@ -1,0 +1,133 @@
+/* =Home page
+------------------------------------------------------------------------- */
+.home .content-sidebar-wrap.row {
+	max-width: none;
+}
+.home .content-sidebar-wrap.row > .columns {
+	padding: 0;
+}
+.home .content-sidebar-wrap.row .row {
+	max-width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home-middle h4,
+.home-bottom-left h4 {
+	font-size: rem-calc(28);
+}
+.home-top-right .widget,
+.home-bottom-right .widget {
+	background: $body-bg-alt;
+	padding: 1rem;
+}
+.home-top-left,
+.home-top-right,
+.home-bottom-left,
+.home-bottom-right {
+	margin-bottom: 2rem;
+}
+@media #{$large-up} {
+	.home-top-left,
+	.home-top-right,
+	.home-bottom-left,
+	.home-bottom-right {
+		margin-bottom: 0;
+	}
+}
+
+/* =Home Top
+------------------------------------------------------------------------- */
+.home-top .widget {
+}
+.home-top .equity-listing-scroller {
+	overflow: visible;
+}
+.home-top .equity-listing-scroller .owl-item .listing {
+	margin: 0;
+}
+.home-top .equity-listing-scroller .listing-wrap {
+	position: relative;
+}
+.home-top .equity-listing-scroller .listing-widget-thumb img {
+	border: 1px solid #999;
+}
+.home-top .equity-listing-scroller .listing-title {
+	margin-top: 1.25rem;
+}
+.home-top .widget.equity-listing-scroller .listing-wrap .listing-thumb-meta {
+	position: relative;
+}
+.home-top .equity-listing-scroller .listing-wrap .listing-thumb-meta span {
+	position: absolute;
+	top: auto;
+	left: auto;
+	bottom: 1px;
+	right: 1px;
+	text-align: right;
+	width: auto;
+	background: white;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 12px 10px;
+}
+.home-top .equity-listing-scroller .owl-controls span {
+	display: none;
+}
+
+@media only screen and (min-width:40.063em) {
+	.home-top .equity-listing-scroller .listing-widget-details {
+		position: absolute;
+		bottom: 1px;
+		left: 1px;
+		display: block;
+		text-align: left;
+		background: white;
+		background: rgba(255, 255, 255, 0.8);
+		padding: 12px 20px;
+	}
+	.home-top .equity-listing-scroller .listing-title {
+		margin-top: 0;
+	}
+	.home-top .equity-listing-scroller .owl-controls .owl-prev,
+	.home-top .equity-listing-scroller .owl-controls .owl-next {
+		position: absolute;
+		margin: 0;
+		top: 43%;
+	}
+	.home-top .equity-listing-scroller .owl-controls i {
+		color: #fff;
+		color: rgba(255,255,255,0.7);
+		font-size: rem-calc(45);
+	}
+	.home-top .equity-listing-scroller .owl-controls .owl-prev {
+		left: 2rem;
+	}
+	.home-top .equity-listing-scroller .owl-controls .owl-next {
+		right: 2rem;
+	}
+}
+
+/* =Home Middle
+------------------------------------------------------------------------- */
+.home-middle {
+	background: $body-bg-alt;
+	text-align: center;
+	padding: 1.7rem 0;
+	margin: 2.25rem 0;
+}
+
+/* =Home Bottom
+------------------------------------------------------------------------- */
+.home-bottom .widget {
+	margin-bottom: 2rem;
+}
+.home-bottom-right,
+.home-bottom-right p,
+.home-bottom-right ol,
+.home-bottom-right ul {
+	font-size: rem-calc(14);
+}
+.home-bottom-right .button,
+.home-bottom-right button {
+	display: table;
+	margin: auto;
+}

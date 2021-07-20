@@ -1,0 +1,22 @@
+/* =Sidebar
+------------------------------------------------------------------------- */
+.sidebar-primary .widget {
+	background: $body-bg-alt;
+	padding: 1rem;
+	margin: 0 0 2rem;
+}
+.sidebar-primary,
+.sidebar-primary p,
+.sidebar-primary ul,
+.sidebar-primary ol,
+.sidebar-primary dl {
+	font-size: rem-calc(14);
+}
+.sidebar-primary h4.widget-title {
+	color: $header-font-color;
+	padding: 0;
+	margin: 0 0 0.825rem;
+	font-size: rem-calc(20);
+	line-height: 1;
+	text-transform: uppercase;
+}

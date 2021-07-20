@@ -1,0 +1,99 @@
+/* =Entry Content
+------------------------------------------------------------------------- */
+.content article {
+	line-height: 1.6;
+	margin: 0 0 2rem;
+}
+.content article .entry-header {
+	margin: 0 0 1rem;
+}
+.content figure {
+	margin: 0;
+}
+.content article a:not(.button) {
+	font-weight: $font-weight-bold;
+}
+
+
+/* =Post Info/Post Meta
+------------------------------------------------------------------------- */
+header .entry-meta,
+footer .entry-meta {
+	font-size: rem-calc(14);
+}
+.entry-header-full header .entry-meta {
+	font-family: $header-font-family;
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.95);
+	margin: 0;
+}
+.entry-header-full header .entry-meta a {
+	color: $body-font-color-secondary;
+}
+footer .entry-meta span {
+	display: inline-block;
+	margin-right: 10px;
+}
+footer .entry-meta {
+	border-top: 1px solid #efefef;
+	border-bottom: 1px solid #efefef;
+	padding: 8px;
+	margin: 0;
+}
+header .entry-meta i,
+footer .entry-meta i {
+	color: scale-color($body-font-color, $lightness: 50%);
+}
+header .entry-meta i {
+	display: none;
+}
+.entry-header-full header .entry-meta i {
+	color: $body-font-color-secondary;
+}
+
+@media #{$large-up} {
+	.entry-header-full header .entry-meta {
+		text-align: right;
+		margin: 1.35rem 0;
+	}
+}
+
+/* =Author Box
+------------------------------------------------------------------------- */
+.author-box {
+	overflow: hidden;
+	padding: 1.5rem;
+	background: #efefef;
+}
+.author-box .gravatar {
+	float: left;
+	margin: 0 1rem 1rem 0;
+}
+
+
+/* =After Entry Widget Area
+------------------------------------------------------------------------- */
+.after-entry-widget-area {
+	background: $body-bg-alt;
+	color: $header-font-color;
+	padding: 1.4rem;
+	font-size: rem-calc(16);
+	line-height: 1.6;
+	margin: 1rem 0;
+}
+.after-entry-widget-area h4 {
+	line-height: 1;
+	margin: 0 0 1rem;
+	color: $header-font-color;
+}
+.after-entry-widget-area p {
+	font-size: rem-calc(16);
+	line-height: 1.4;
+}
+
+
+/* =Pagination/Post Navigation (most formatting included in foundation.css)
+------------------------------------------------------------------------- */
+.pagination {
+	font-size: rem-calc(14);
+	margin: 0.875rem 0;
+}

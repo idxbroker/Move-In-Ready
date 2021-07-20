@@ -1,0 +1,101 @@
+/* =IDX Content
+------------------------------------------------------------ */
+#IDX-main {
+	width: 100% !important;
+	font-family: inherit !important;
+	background-color: inherit !important;
+}
+
+#IDX-main select[multiple] {
+	height: auto;
+	background-image: none;
+}
+
+#IDX-main .IDX-radio-inline {
+	margin-right: 5px;
+}
+
+#IDX-main .recaptcha_input_area,
+#IDX-main .recaptchatable #recaptcha_response_field {
+	height: auto;
+	display: table-caption;
+}
+
+#IDX-main .IDX-nav {
+	margin-left: 0rem;
+}
+
+.idx-content .IDX-wrapper-standard a {
+	color: $primary-color;
+}
+.IDX-wrapper-standard .IDX-btn,
+.IDX-wrapper-standard .IDX-btn-primary,
+.IDX-wrapper-standard .IDX-btn-default,
+.IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.IDX-wrapper-standard .IDX-navbar-default,
+.IDX-wrapper-standard .IDX-navigation,
+.IDX-wrapper-standard #IDX-mapHeader-Search {
+	background-color: $primary-color;
+}
+.IDX-wrapper-standard .IDX-btn:hover,
+.IDX-wrapper-standard .IDX-btn-primary:hover,
+.IDX-wrapper-standard .IDX-btn-default:hover,
+.IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a,
+.IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:focus,
+.IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:hover,
+.IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:focus,
+.IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:hover,
+.IDX-wrapper-standard .IDX-searchNavItem a:hover {
+	background-color: scale-color($button-bg-color, $lightness: $button-function-factor);
+}
+.idx-content .IDX-wrapper-standard .IDX-panel-primary,
+.idx-content .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-collapse,
+.idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-form,
+.idx-content .IDX-wrapper-standard .IDX-navbar-default {
+	border-color: $primary-color;
+}
+.idx-content .IDX-open>.IDX-wrapper-standard .IDX-btn-default.IDX-dropdown-toggle {
+	background: none;
+	border: 0;
+}
+.idx-content .IDX-wrapper-standard .IDX-detailsPhotosWrap a.IDX-arrow,
+.idx-content .IDX-wrapper-standard .IDX-searchNavItem a,
+.idx-content #IDX-main .IDX-wrapper-standard a.IDX-btn,
+.idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a,
+.idx-content .IDX-wrapper-standard #IDX-mapSearchFields a,
+.idx-content .IDX-wrapper-standard #IDX-mapHeader-Search {
+	color: #fff;
+}
+.IDX-searchNavItem a,
+.IDX-searchNavItem span {
+	font-family: $paragraph-font-family;
+}
+.IDX-wrapper-standard .IDX-detailsHotAction {
+	margin:0 5px 0 0;
+}
+.IDX-wrapper-standard .IDX-detailsHotAction a {
+	text-decoration: none;
+}
+#IDX-detailsHotActions .IDX-btn {
+	font-size: 0.7rem;
+	padding: 0.4rem;
+}
+.IDX-pagination-action a.IDX-btn {
+	padding: 0.25rem;
+}
+.IDX-wrapper-standard #IDX-formReset,
+.IDX-wrapper-standard #IDX-resetBtn,
+.IDX-wrapper-standard #IDX-formReset-bottom {
+	border: none;
+}
+.IDX-wrapper-standard .IDX-contactForm #IDX-resetBtn,
+.IDX-wrapper-standard .IDX-contactForm #IDX-submitBtn {
+	padding: 0.6rem 0.8rem;
+}
+#IDX-mapSearchFields a.IDX-btn,
+#IDX-mapSearchFields a.IDX-btn:hover,
+#IDX-mapSearchFields a.IDX-btn:focus {
+	background: none !important;
+    padding: 0.45rem;
+}

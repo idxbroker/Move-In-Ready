@@ -1,0 +1,589 @@
+/* =Color Styles - Green
+------------------------------------------------------------------------- */
+.mir-green a,
+.mir-green .idx-content .IDX-wrapper-standard a,
+.mir-green .ae-iconbox i[class*="fa-"],
+.mir-green .ae-iconbox a i[class*="fa-"],
+.mir-green .ae-iconbox.type-2:hover i[class*="fa-"],
+.mir-green .ae-iconbox.type-2:hover a i[class*="fa-"],
+.mir-green .ae-iconbox.type-3:hover i[class*="fa-"],
+.mir-green .ae-iconbox.type-3:hover a i[class*="fa-"] {
+	color: #43a35e;
+}
+.mir-green .button:not(.secondary),
+.mir-green button:not(.secondary),
+.mir-green input[type="button"],
+.mir-green input[type="submit"],
+.mir-green .IDX-wrapper-standard .IDX-btn,
+.mir-green .IDX-wrapper-standard .IDX-btn-primary,
+.mir-green .IDX-wrapper-standard .IDX-btn-default,
+.mir-green .IDX-wrapper-standard #IDX-newSearch,
+.mir-green .IDX-wrapper-standard #IDX-saveProperty,
+.mir-green .IDX-wrapper-standard .IDX-removeProperty,
+.mir-green .IDX-wrapper-standard #IDX-saveSearch,
+.mir-green .IDX-wrapper-standard #IDX-modifySearch,
+.mir-green .IDX-wrapper-standard #IDX-submitBtn,
+.mir-green .IDX-wrapper-standard #IDX-resetBtn,
+.mir-green .IDX-wrapper-standard #IDX-refineSearchFormToggle,
+.mir-green .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default,
+.mir-green .IDX-wrapper-standard .IDX-navigation,
+.mir-green .IDX-wrapper-standard #IDX-mapHeader-Search,
+.mir-green .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a,
+.mir-green .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:focus,
+.mir-green .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:hover,
+.mir-green .featured-page .more-link,
+.mir-green .featured-post .more-link,
+.mir-green .contain-to-grid,
+.mir-green .top-header,
+.mir-green .nav-main .top-header,
+.mir-green .top-bar,
+.mir-green .nav-main .top-bar,
+.mir-green .top-bar.expanded .title-area,
+.mir-green .nav-main .top-bar.expanded .title-area,
+.mir-green .top-bar-section ul li,
+.mir-green .nav-main .top-bar-section ul li,
+.mir-green .top-bar-section ul li.active > a,
+.mir-green .nav-main .top-bar-section ul li.active > a,
+.mir-green .top-bar-section .dropdown li label,
+.mir-green .top-bar-section .dropdown li a,
+.mir-green .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-green .nav-main .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-green .top-bar-section li:not(.has-form) a:not(.button),
+.mir-green .nav-main .top-bar-section li:not(.has-form) a:not(.button),
+.mir-green .site-footer,
+.mir-green .ae-iconbox.type-2 i,
+.mir-green .ae-iconbox.type-3 i,
+.mir-green ul.pagination li.current a,
+.mir-green ul.pagination li.current button {
+	background-color: #43a35e;
+}
+.mir-green .button,
+.mir-green button,
+.mir-green input[type="button"],
+.mir-green input[type="submit"],
+.mir-green .idx-content .IDX-wrapper-standard .IDX-panel-primary,
+.mir-green .idx-content .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-green .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-collapse,
+.mir-green .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-form,
+.mir-green .idx-content .IDX-wrapper-standard .IDX-navbar-default {
+	border-color: #2f8648;
+}
+.mir-green a:hover,
+.mir-green a:focus {
+	color: #2f8648;
+}
+.mir-green .button:not(.secondary):hover,
+.mir-green button:not(.secondary):hover,
+.mir-green input[type="button"]:hover,
+.mir-green input[type="submit"]:hover,
+.mir-green .button:not(.secondary):focus,
+.mir-green button:not(.secondary):focus,
+.mir-green input[type="button"]:focus,
+.mir-green input[type="submit"]:focus,
+.mir-green .featured-page .more-link:hover,
+.mir-green .featured-post .more-link:hover,
+.mir-green ul.pagination li.current a:hover,
+.mir-green ul.pagination li.current a:focus,
+.mir-green ul.pagination li.current button:hover,
+.mir-green ul.pagination li.current button:focus,
+.mir-green .IDX-wrapper-standard .IDX-btn:hover,
+.mir-green .IDX-wrapper-standard .IDX-btn-default:hover,
+.mir-green .IDX-wrapper-standard .IDX-btn-primary:hover,
+.mir-green .IDX-wrapper-standard #IDX-newSearch:hover,
+.mir-green .IDX-wrapper-standard #IDX-saveProperty:hover,
+.mir-green .IDX-wrapper-standard .IDX-removeProperty:hover,
+.mir-green .IDX-wrapper-standard #IDX-saveSearch:hover,
+.mir-green .IDX-wrapper-standard #IDX-modifySearch:hover,
+.mir-green .IDX-wrapper-standard #IDX-submitBtn:hover,
+.mir-green .IDX-wrapper-standard #IDX-resetBtn:hover,
+.mir-green .IDX-wrapper-standard #IDX-refineSearchFormToggle:hover,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:focus,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:hover,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:focus,
+.mir-green .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:hover,
+.mir-green .IDX-wrapper-standard .IDX-searchNavItem a:hover {
+	background-color: #2f8648;
+}
+.mir-green .top-bar.expanded .toggle-topbar a,
+.mir-green .top-bar-section .dropdown label {
+	color: scale-color(#60BB7B, $lightness: 50%);
+}
+.mir-green .top-bar-section .divider,
+.mir-green .top-bar-section [role="separator"],
+.mir-green .top-bar-section > ul > .divider,
+.mir-green .top-bar-section > ul > [role="separator"] {
+	border-color: #60BB7B;
+}
+.mir-green .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-green .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-green .top-bar-section li.active:not(.has-form) a:not(.button):hover,
+.mir-green .nav-main .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-green .nav-main .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-green .nav-main .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color: #2f8648;
+}
+.mir-green .top-header a,
+.mir-green .site-footer a,
+.mir-green .site-footer a:hover,
+.mir-green .site-footer a:focus,
+.mir-green .button,
+.mir-green button,
+.mir-green input[type="button"],
+.mir-green input[type="submit"],
+.mir-green .button:hover,
+.mir-green button:hover,
+.mir-green input[type="button"]:hover,
+.mir-green input[type="submit"]:hover,
+.mir-green .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a {
+	color: #fff !important;
+}
+
+/* =Color Styles - Red
+------------------------------------------------------------------------- */
+.mir-red a,
+.mir-red .idx-content .IDX-wrapper-standard a,
+.mir-red .ae-iconbox i[class*="fa-"],
+.mir-red .ae-iconbox a i[class*="fa-"],
+.mir-red .ae-iconbox.type-2:hover i[class*="fa-"],
+.mir-red .ae-iconbox.type-2:hover a i[class*="fa-"],
+.mir-red .ae-iconbox.type-3:hover i[class*="fa-"],
+.mir-red .ae-iconbox.type-3:hover a i[class*="fa-"] {
+	color: #e31937;
+}
+.mir-red .button:not(.secondary),
+.mir-red button:not(.secondary),
+.mir-red input[type="button"],
+.mir-red input[type="submit"],
+.mir-red .IDX-wrapper-standard .IDX-btn,
+.mir-red .IDX-wrapper-standard .IDX-btn-primary,
+.mir-red .IDX-wrapper-standard .IDX-btn-default,
+.mir-red .IDX-wrapper-standard #IDX-newSearch,
+.mir-red .IDX-wrapper-standard #IDX-saveProperty,
+.mir-red .IDX-wrapper-standard .IDX-removeProperty,
+.mir-red .IDX-wrapper-standard #IDX-saveSearch,
+.mir-red .IDX-wrapper-standard #IDX-modifySearch,
+.mir-red .IDX-wrapper-standard #IDX-submitBtn,
+.mir-red .IDX-wrapper-standard #IDX-resetBtn,
+.mir-red .IDX-wrapper-standard #IDX-refineSearchFormToggle,
+.mir-red .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default,
+.mir-red .IDX-wrapper-standard .IDX-navigation,
+.mir-red .IDX-wrapper-standard #IDX-mapHeader-Search,
+.mir-red .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a,
+.mir-red .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:focus,
+.mir-red .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:hover,
+.mir-red .featured-page .more-link,
+.mir-red .featured-post .more-link,
+.mir-red .contain-to-grid,
+.mir-red .top-header,
+.mir-red .nav-main .top-header,
+.mir-red .top-bar,
+.mir-red .nav-main .top-bar,
+.mir-red .top-bar.expanded .title-area,
+.mir-red .nav-main .top-bar.expanded .title-area,
+.mir-red .top-bar-section ul li,
+.mir-red .nav-main .top-bar-section ul li,
+.mir-red .top-bar-section ul li.active > a,
+.mir-red .nav-main .top-bar-section ul li.active > a,
+.mir-red .top-bar-section .dropdown li label,
+.mir-red .top-bar-section .dropdown li a,
+.mir-red .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-red .nav-main .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-red .top-bar-section li:not(.has-form) a:not(.button),
+.mir-red .nav-main .top-bar-section li:not(.has-form) a:not(.button),
+.mir-red .site-footer,
+.mir-red .ae-iconbox.type-2 i,
+.mir-red .ae-iconbox.type-3 i,
+.mir-red ul.pagination li.current a,
+.mir-red ul.pagination li.current button {
+	background-color: #e31937;
+}
+.mir-red .button,
+.mir-red button,
+.mir-red input[type="button"],
+.mir-red input[type="submit"],
+.mir-red .idx-content .IDX-wrapper-standard .IDX-panel-primary,
+.mir-red .idx-content .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-red .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-collapse,
+.mir-red .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-form,
+.mir-red .idx-content .IDX-wrapper-standard .IDX-navbar-default {
+	border-color: #ba1930;
+}
+.mir-red a:hover,
+.mir-red a:focus {
+	color: #ba1930;
+}
+.mir-red .button:not(.secondary):hover,
+.mir-red button:not(.secondary):hover,
+.mir-red input[type="button"]:hover,
+.mir-red input[type="submit"]:hover,
+.mir-red .button:not(.secondary):focus,
+.mir-red button:not(.secondary):focus,
+.mir-red input[type="button"]:focus,
+.mir-red input[type="submit"]:focus,
+.mir-red .featured-page .more-link:hover,
+.mir-red .featured-post .more-link:hover,
+.mir-red ul.pagination li.current a:hover,
+.mir-red ul.pagination li.current a:focus,
+.mir-red ul.pagination li.current button:hover,
+.mir-red ul.pagination li.current button:focus,
+.mir-red .IDX-wrapper-standard .IDX-btn:hover,
+.mir-red .IDX-wrapper-standard .IDX-btn-default:hover,
+.mir-red .IDX-wrapper-standard .IDX-btn-primary:hover,
+.mir-red .IDX-wrapper-standard #IDX-newSearch:hover,
+.mir-red .IDX-wrapper-standard #IDX-saveProperty:hover,
+.mir-red .IDX-wrapper-standard .IDX-removeProperty:hover,
+.mir-red .IDX-wrapper-standard #IDX-saveSearch:hover,
+.mir-red .IDX-wrapper-standard #IDX-modifySearch:hover,
+.mir-red .IDX-wrapper-standard #IDX-submitBtn:hover,
+.mir-red .IDX-wrapper-standard #IDX-resetBtn:hover,
+.mir-red .IDX-wrapper-standard #IDX-refineSearchFormToggle:hover,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:focus,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:hover,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:focus,
+.mir-red .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:hover,
+.mir-red .IDX-wrapper-standard .IDX-searchNavItem a:hover {
+	background-color: #ba1930;
+}
+.mir-red .top-bar.expanded .toggle-topbar a,
+.mir-red .top-bar-section .dropdown label {
+	color: scale-color(#EA5D72, $lightness: 50%);
+}
+.mir-red .top-bar-section .divider,
+.mir-red .top-bar-section [role="separator"],
+.mir-red .top-bar-section > ul > .divider,
+.mir-red .top-bar-section > ul > [role="separator"] {
+	border-color: #EA5D72;
+}
+.mir-red .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-red .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-red .top-bar-section li.active:not(.has-form) a:not(.button):hover,
+.mir-red .nav-main .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-red .nav-main .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-red .nav-main .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color: #ba1930;
+}
+.mir-red .top-header a,
+.mir-red .site-footer a,
+.mir-red .site-footer a:hover,
+.mir-red .site-footer a:focus,
+.mir-red .button,
+.mir-red button,
+.mir-red input[type="button"],
+.mir-red input[type="submit"],
+.mir-red .button:hover,
+.mir-red button:hover,
+.mir-red input[type="button"]:hover,
+.mir-red input[type="submit"]:hover,
+.mir-red .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a {
+	color: #fff !important;
+}
+
+
+/* =Color Styles - Purple
+------------------------------------------------------------------------- */
+.mir-purple a,
+.mir-purple .idx-content .IDX-wrapper-standard a,
+.mir-purple .ae-iconbox i[class*="fa-"],
+.mir-purple .ae-iconbox a i[class*="fa-"],
+.mir-purple .ae-iconbox.type-2:hover i[class*="fa-"],
+.mir-purple .ae-iconbox.type-2:hover a i[class*="fa-"],
+.mir-purple .ae-iconbox.type-3:hover i[class*="fa-"],
+.mir-purple .ae-iconbox.type-3:hover a i[class*="fa-"] {
+	color: #8526ac;
+}
+.mir-purple .button:not(.secondary),
+.mir-purple button:not(.secondary),
+.mir-purple input[type="button"],
+.mir-purple input[type="submit"],
+.mir-purple .IDX-wrapper-standard .IDX-btn,
+.mir-purple .IDX-wrapper-standard .IDX-btn-primary,
+.mir-purple .IDX-wrapper-standard .IDX-btn-default,
+.mir-purple .IDX-wrapper-standard #IDX-newSearch,
+.mir-purple .IDX-wrapper-standard #IDX-saveProperty,
+.mir-purple .IDX-wrapper-standard .IDX-removeProperty,
+.mir-purple .IDX-wrapper-standard #IDX-saveSearch,
+.mir-purple .IDX-wrapper-standard #IDX-modifySearch,
+.mir-purple .IDX-wrapper-standard #IDX-submitBtn,
+.mir-purple .IDX-wrapper-standard #IDX-resetBtn,
+.mir-purple .IDX-wrapper-standard #IDX-refineSearchFormToggle,
+.mir-purple .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default,
+.mir-purple .IDX-wrapper-standard .IDX-navigation,
+.mir-purple .IDX-wrapper-standard #IDX-mapHeader-Search,
+.mir-purple .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a,
+.mir-purple .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:focus,
+.mir-purple .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:hover,
+.mir-purple .featured-page .more-link,
+.mir-purple .featured-post .more-link,
+.mir-purple .contain-to-grid,
+.mir-purple .top-header,
+.mir-purple .nav-main .top-header,
+.mir-purple .top-bar,
+.mir-purple .nav-main .top-bar,
+.mir-purple .top-bar.expanded .title-area,
+.mir-purple .nav-main .top-bar.expanded .title-area,
+.mir-purple .top-bar-section ul li,
+.mir-purple .nav-main .top-bar-section ul li,
+.mir-purple .top-bar-section ul li.active > a,
+.mir-purple .nav-main .top-bar-section ul li.active > a,
+.mir-purple .top-bar-section .dropdown li label,
+.mir-purple .top-bar-section .dropdown li a,
+.mir-purple .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-purple .nav-main .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-purple .top-bar-section li:not(.has-form) a:not(.button),
+.mir-purple .nav-main .top-bar-section li:not(.has-form) a:not(.button),
+.mir-purple .site-footer,
+.mir-purple .ae-iconbox.type-2 i,
+.mir-purple .ae-iconbox.type-3 i,
+.mir-purple ul.pagination li.current a,
+.mir-purple ul.pagination li.current button {
+	background-color: #8526ac;
+}
+.mir-purple .button,
+.mir-purple button,
+.mir-purple input[type="button"],
+.mir-purple input[type="submit"],
+.mir-purple .idx-content .IDX-wrapper-standard .IDX-panel-primary,
+.mir-purple .idx-content .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-purple .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-collapse,
+.mir-purple .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-form,
+.mir-purple .idx-content .IDX-wrapper-standard .IDX-navbar-default {
+	border-color: #6e1593;
+}
+.mir-purple a:hover,
+.mir-purple a:focus {
+	color: #6e1593;
+}
+.mir-purple .button:not(.secondary):hover,
+.mir-purple button:not(.secondary):hover,
+.mir-purple input[type="button"]:hover,
+.mir-purple input[type="submit"]:hover,
+.mir-purple .button:not(.secondary):focus,
+.mir-purple button:not(.secondary):focus,
+.mir-purple input[type="button"]:focus,
+.mir-purple input[type="submit"]:focus,
+.mir-purple .featured-page .more-link:hover,
+.mir-purple .featured-post .more-link:hover,
+.mir-purple ul.pagination li.current a:hover,
+.mir-purple ul.pagination li.current a:focus,
+.mir-purple ul.pagination li.current button:hover,
+.mir-purple ul.pagination li.current button:focus,
+.mir-purple .IDX-wrapper-standard .IDX-btn:hover,
+.mir-purple .IDX-wrapper-standard .IDX-btn-default:hover,
+.mir-purple .IDX-wrapper-standard .IDX-btn-primary:hover,
+.mir-purple .IDX-wrapper-standard #IDX-newSearch:hover,
+.mir-purple .IDX-wrapper-standard #IDX-saveProperty:hover,
+.mir-purple .IDX-wrapper-standard .IDX-removeProperty:hover,
+.mir-purple .IDX-wrapper-standard #IDX-saveSearch:hover,
+.mir-purple .IDX-wrapper-standard #IDX-modifySearch:hover,
+.mir-purple .IDX-wrapper-standard #IDX-submitBtn:hover,
+.mir-purple .IDX-wrapper-standard #IDX-resetBtn:hover,
+.mir-purple .IDX-wrapper-standard #IDX-refineSearchFormToggle:hover,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:focus,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:hover,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:focus,
+.mir-purple .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:hover,
+.mir-purple .IDX-wrapper-standard .IDX-searchNavItem a:hover {
+	background-color: #6e1593;
+}
+.mir-purple .top-bar.expanded .toggle-topbar a,
+.mir-purple .top-bar-section .dropdown label {
+	color: scale-color(#6e1593, $lightness: 50%);
+}
+.mir-purple .top-bar-section .divider,
+.mir-purple .top-bar-section [role="separator"],
+.mir-purple .top-bar-section > ul > .divider,
+.mir-purple .top-bar-section > ul > [role="separator"] {
+	border-color: #6e1593;
+}
+.mir-purple .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-purple .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-purple .top-bar-section li.active:not(.has-form) a:not(.button):hover,
+.mir-purple .nav-main .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-purple .nav-main .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-purple .nav-main .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color: #6e1593;
+}
+.mir-purple .top-header a,
+.mir-purple .site-footer a,
+.mir-purple .site-footer a:hover,
+.mir-purple .site-footer a:focus,
+.mir-purple .button,
+.mir-purple button,
+.mir-purple input[type="button"],
+.mir-purple input[type="submit"],
+.mir-purple .button:hover,
+.mir-purple button:hover,
+.mir-purple input[type="button"]:hover,
+.mir-purple input[type="submit"]:hover,
+.mir-purple .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a {
+	color: #fff !important;
+}
+
+/* =Color Styles - Grey
+------------------------------------------------------------------------- */
+.mir-grey a,
+.mir-grey .idx-content .IDX-wrapper-standard a,
+.mir-grey .ae-iconbox i[class*="fa-"],
+.mir-grey .ae-iconbox a i[class*="fa-"],
+.mir-grey .ae-iconbox.type-2:hover i[class*="fa-"],
+.mir-grey .ae-iconbox.type-2:hover a i[class*="fa-"],
+.mir-grey .ae-iconbox.type-3:hover i[class*="fa-"],
+.mir-grey .ae-iconbox.type-3:hover a i[class*="fa-"] {
+	color: #5d5d5d;
+}
+.mir-grey .button:not(.secondary),
+.mir-grey button:not(.secondary),
+.mir-grey input[type="button"],
+.mir-grey input[type="submit"],
+.mir-grey .IDX-wrapper-standard .IDX-btn,
+.mir-grey .IDX-wrapper-standard .IDX-btn-primary,
+.mir-grey .IDX-wrapper-standard .IDX-btn-default,
+.mir-grey .IDX-wrapper-standard #IDX-newSearch,
+.mir-grey .IDX-wrapper-standard #IDX-saveProperty,
+.mir-grey .IDX-wrapper-standard .IDX-removeProperty,
+.mir-grey .IDX-wrapper-standard #IDX-saveSearch,
+.mir-grey .IDX-wrapper-standard #IDX-modifySearch,
+.mir-grey .IDX-wrapper-standard #IDX-submitBtn,
+.mir-grey .IDX-wrapper-standard #IDX-resetBtn,
+.mir-grey .IDX-wrapper-standard #IDX-refineSearchFormToggle,
+.mir-grey .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default,
+.mir-grey .IDX-wrapper-standard .IDX-navigation,
+.mir-grey .IDX-wrapper-standard #IDX-mapHeader-Search,
+.mir-grey .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a,
+.mir-grey .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:focus,
+.mir-grey .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a:hover,
+.mir-grey .featured-page .more-link,
+.mir-grey .featured-post .more-link,
+.mir-grey .contain-to-grid,
+.mir-grey .top-header,
+.mir-grey .nav-main .top-header,
+.mir-grey .top-bar,
+.mir-grey .nav-main .top-bar,
+.mir-grey .top-bar.expanded .title-area,
+.mir-grey .nav-main .top-bar.expanded .title-area,
+.mir-grey .top-bar-section ul li,
+.mir-grey .nav-main .top-bar-section ul li,
+.mir-grey .top-bar-section ul li.active > a,
+.mir-grey .nav-main .top-bar-section ul li.active > a,
+.mir-grey .top-bar-section .dropdown li label,
+.mir-grey .top-bar-section .dropdown li a,
+.mir-grey .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-grey .nav-main .top-bar-section .dropdown li:not(.has-form) a:not(.button),
+.mir-grey .top-bar-section li:not(.has-form) a:not(.button),
+.mir-grey .nav-main .top-bar-section li:not(.has-form) a:not(.button),
+.mir-grey .site-footer,
+.mir-grey .ae-iconbox.type-2 i,
+.mir-grey .ae-iconbox.type-3 i,
+.mir-grey ul.pagination li.current a,
+.mir-grey ul.pagination li.current button {
+	background-color: #5d5d5d;
+}
+.mir-grey .button,
+.mir-grey button,
+.mir-grey input[type="button"],
+.mir-grey input[type="submit"],
+.mir-grey .idx-content .IDX-wrapper-standard .IDX-panel-primary,
+.mir-grey .idx-content .IDX-wrapper-standard .IDX-panel-primary>.IDX-panel-heading,
+.mir-grey .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-collapse,
+.mir-grey .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-form,
+.mir-grey .idx-content .IDX-wrapper-standard .IDX-navbar-default {
+	border-color: #4c4c4c;
+}
+.mir-grey a:hover,
+.mir-grey a:focus {
+	color: #4c4c4c;
+}
+.mir-grey .button:not(.secondary):hover,
+.mir-grey button:not(.secondary):hover,
+.mir-grey input[type="button"]:hover,
+.mir-grey input[type="submit"]:hover,
+.mir-grey .button:not(.secondary):focus,
+.mir-grey button:not(.secondary):focus,
+.mir-grey input[type="button"]:focus,
+.mir-grey input[type="submit"]:focus,
+.mir-grey .featured-page .more-link:hover,
+.mir-grey .featured-post .more-link:hover,
+.mir-grey ul.pagination li.current a:hover,
+.mir-grey ul.pagination li.current a:focus,
+.mir-grey ul.pagination li.current button:hover,
+.mir-grey ul.pagination li.current button:focus,
+.mir-grey .IDX-wrapper-standard .IDX-btn:hover,
+.mir-grey .IDX-wrapper-standard .IDX-btn-default:hover,
+.mir-grey .IDX-wrapper-standard .IDX-btn-primary:hover,
+.mir-grey .IDX-wrapper-standard #IDX-newSearch:hover,
+.mir-grey .IDX-wrapper-standard #IDX-saveProperty:hover,
+.mir-grey .IDX-wrapper-standard .IDX-removeProperty:hover,
+.mir-grey .IDX-wrapper-standard #IDX-saveSearch:hover,
+.mir-grey .IDX-wrapper-standard #IDX-modifySearch:hover,
+.mir-grey .IDX-wrapper-standard #IDX-submitBtn:hover,
+.mir-grey .IDX-wrapper-standard #IDX-resetBtn:hover,
+.mir-grey .IDX-wrapper-standard #IDX-refineSearchFormToggle:hover,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:focus,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>.IDX-active>a:hover,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:focus,
+.mir-grey .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a:hover,
+.mir-grey .IDX-wrapper-standard .IDX-searchNavItem a:hover {
+	background-color: #4c4c4c;
+}
+.mir-grey .top-bar.expanded .toggle-topbar a,
+.mir-grey .top-bar-section .dropdown label {
+	color: scale-color(#8b8b8b, $lightness: 50%);
+}
+.mir-grey .top-bar-section .divider,
+.mir-grey .top-bar-section [role="separator"],
+.mir-grey .top-bar-section > ul > .divider,
+.mir-grey .top-bar-section > ul > [role="separator"] {
+	border-color: #8b8b8b;
+}
+.mir-grey .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-grey .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-grey .top-bar-section li.active:not(.has-form) a:not(.button):hover,
+.mir-grey .nav-main .top-bar-section li:not(.has-form):hover > a:not(.button),
+.mir-grey .nav-main .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button),
+.mir-grey .nav-main .top-bar-section li.active:not(.has-form) a:not(.button):hover {
+	background-color: #4c4c4c;
+}
+.mir-grey .top-header a,
+.mir-grey .site-footer a,
+.mir-grey .site-footer a:hover,
+.mir-grey .site-footer a:focus,
+.mir-grey .button,
+.mir-grey button,
+.mir-grey input[type="button"],
+.mir-grey input[type="submit"],
+.mir-grey .button:hover,
+.mir-grey button:hover,
+.mir-grey input[type="button"]:hover,
+.mir-grey input[type="submit"]:hover,
+.mir-grey .IDX-wrapper-standard .IDX-nav-pills>li.IDX-active>a {
+	color: #fff !important;
+}
+
+/* =Color Styles - Custom
+------------------------------------------------------------------------- */
+.mir-custom .top-header a,
+.mir-custom .site-footer a,
+.mir-custom .site-footer a:hover,
+.mir-custom .site-footer a:focus,
+.mir-custom .button,
+.mir-custom button,
+.mir-custom input[type="button"],
+.mir-custom input[type="submit"],
+.mir-custom .button:hover,
+.mir-custom button:hover,
+.mir-custom input[type="button"]:hover,
+.mir-custom input[type="submit"]:hover,
+.mir-custom .idx-content .IDX-wrapper-standard .IDX-detailsPhotosWrap a.IDX-arrow,
+.mir-custom .idx-content .IDX-wrapper-standard .IDX-searchNavItem a,
+.mir-custom .idx-content .IDX-wrapper-standard a.IDX-btn,
+.mir-custom .idx-content .IDX-wrapper-standard .IDX-navbar-default .IDX-navbar-nav>li>a {
+	color: #fff !important;
+}

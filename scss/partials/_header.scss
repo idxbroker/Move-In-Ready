@@ -1,0 +1,93 @@
+/* Top Header
+------------------------------------------------------------------------- */
+.top-header {
+	background: $primary-color;
+	color: $body-font-color-secondary;
+	font-size: rem-calc(12);
+	line-height: rem-calc(20);
+}
+.top-header a {
+	color: $body-font-color-secondary;
+	@include single-transition(color);
+}
+.top-header a:hover {
+	color: scale-color($body-font-color-secondary, $lightness: -14%);
+}
+.top-header .agent-social-icons {
+	display: inline-block;
+}
+.top-header .agent-social-icons a {
+	font-size: rem-calc(13);
+	margin: 0 8px 0 0;
+}
+.top-bar-section ul {
+	font-size: $topbar-link-font-size;
+}
+.top-bar-section .widget-area {
+	height: 32px;
+}
+.top-bar-section .widget-area ul {
+	line-height: $topbar-height;
+}
+
+@media #{$medium-up} {
+	.top-bar-section .has-dropdown .dropdown li.has-dropdown > a:after {
+		top: 0.55rem;
+	}
+}
+
+@media #{$small-only} {
+	.top-header-left .widget,
+	.top-header-right .widget {
+		text-align: center;
+	}
+}
+
+/* Header
+------------------------------------------------------------------------- */
+header.site-header {
+	padding: 0.7rem 0;
+	color: $header-font-color;
+}
+header.site-header .title-area,
+header.site-header .widget-area {
+	text-align: center;
+}
+header.site-header .site-title {
+	font-family: $header-font-family;
+	font-size: rem-calc(32);
+	font-weight: $font-weight-bold;
+	line-height: 1;
+	margin: 0 0 0.2rem;
+	text-transform: uppercase;
+}
+header.site-header a {
+	color: $header-font-color;
+}
+header.site-header .site-description {
+	font-family: $body-font-family;
+	font-size: rem-calc(14);
+	font-weight: $body-font-weight;
+	margin: 0;
+	line-height: 1.6;
+}
+header.site-header .widget-area .agent-phone-wrap,
+header.site-header .widget-area .agent-email-wrap,
+header.site-header .widget-area .agent-address {
+	margin: 0;
+}
+
+@media #{$large-up} {
+	header.site-header {
+		padding: 1rem 0;
+	}
+	header.site-header .title-area {
+		text-align: left;
+	}
+	.top-header .menu-top-header.right {
+		padding-right: $column-gutter / 2;
+	}
+	header.site-header .widget-area {
+		text-align: right;
+	}
+}
