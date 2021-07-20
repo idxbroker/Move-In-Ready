@@ -1,0 +1,48 @@
+/**
+ * Theme Name: Move-in Ready
+ * Theme URI: http://www.agentevolution.com/kb/move-in-ready/
+ * Author: Agent Evolution
+ * Author URI: http://www.agentevolution.com/
+ * Description: Modern Real Estate Child Theme for Equity Framework
+ * Version: 1.0.12
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain: move-in-ready
+ * Domain Path: /languages/
+ * Tags: blue, red, orange, green, responsive-layout, left-sidebar, right-sidebar, custom-menu, editor-style, featured-images, microformats, translation-ready
+ * Template: equity
+ */
+
+/* =Defaults (Foundation Functions and Variables)
+------------------------------------------------------------------------- */
+@import "move-in-ready_settings";
+
+/* =Buttons (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/buttons";
+
+/* =Typography (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/type";
+
+/* =Navigation (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/top-bar";
+
+/* =Pagination (Foundation)
+------------------------------------------------------------------------- */
+@import "foundation/components/pagination";
+
+// Partials
+@import "partials/general";
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/footer";
+@import "partials/sidebar";
+@import "partials/home";
+@import "partials/post";
+@import "partials/comments";
+@import "partials/widgets";
+@import "partials/shortcodes";
+@import "partials/colors";
+@import "partials/idx";
