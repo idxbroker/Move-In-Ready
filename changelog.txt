@@ -1,0 +1,45 @@
+== Changelog ==
+
+== 1.0.12 ==
+* New: Completed Font Awesome 5 transition
+
+== 1.0.11 ==
+* Fix: Resolves issue with sample listing data import file
+
+== 1.0.10 ==
+* New: Added identifying class to body
+
+== 1.0.9 ==
+* New: Listing templates have been moved to the IMPress Listings plugin
+* Fix: Minor CSS class change
+
+== 1.0.8 ==
+* New: Font Awesome 5
+
+== 1.0.7 ==
+* Fix: Tidy up CSS for IDX mobile first templates
+
+== 1.0.6 ==
+* Fix: Single listing templates updated with Google Maps key if applicable
+* Fix: XML files pointing to wrong URLs for media
+
+== 1.0.5 ==
+* New: Included single listing templates
+* New: Added CSS for IDX mobile first templates
+
+== 1.0.4 ==
+* Fix: Updated IDX Carousel widget to use proper image URL for saved links due to API change
+
+== 1.0.3 ==
+* New: Move-in Ready Custom Equity IDX Carousel widget updated to utilize Saved Links available in Equity 1.4
+* New: Move-in Ready Custom Equity IDX Carousel widget updated to include GeoIP options (Turn Key Complete only)
+
+== 1.0.2 ==
+* New: CSS added for author box and new editor styles added in Equity 1.3
+* New: theme.js modified to account for removal of app.js in Equity 1.3
+
+== 1.0.1 ==
+* Fix: Editor scrolling in WP 4.1 when cursor is moved with keyboard
+
+== 1.0 ==
+* Initial release

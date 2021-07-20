@@ -1,0 +1,335 @@
+/* =IDX Widgets
+------------------------------------------------------------------------- */
+
+/* =Quick search
+------------------------------------------------------------------------- */
+.equity-idx-search-widget {
+	overflow: hidden;
+}
+
+.equity-idx-search-widget .horizontal > .columns.large-9 {
+	padding: 0;
+}
+
+.equity-idx-search-widget .equity-qs-price-min,
+.equity-idx-search-widget .equity-qs-price-max,
+.equity-idx-search-widget .vertical .equity-qs-beds,
+.equity-idx-search-widget .vertical .equity-qs-baths {
+	width: 45%;
+	float: left;
+}
+
+.equity-idx-search-widget .equity-qs-price-max,
+.equity-idx-search-widget .vertical .equity-qs-baths {
+	float: right;
+}
+
+.equity-idx-search-widget .equity-qs-price {
+	display: inline-block;
+	text-align: center;
+	line-height: 2;
+}
+
+.equity-idx-search-widget .equity-qs-links {
+	font-size: 15px;
+}
+
+.equity-idx-search-widget .equity-qs-links .advanced-search,
+.equity-idx-search-widget .equity-qs-links .map-search,
+.equity-idx-search-widget .vertical .advanced-search,
+.equity-idx-search-widget .vertical .map-search {
+	display: block;
+	float: left;
+}
+
+.equity-idx-search-widget .equity-qs-links .map-search,
+.equity-idx-search-widget .vertical .map-search {
+	float: right;
+}
+
+.equity-idx-search-widget .equity-qs-submit-button {
+	display: block;
+	font-size: 20px;
+	margin: 0 auto .67rem;
+}
+
+.equity-idx-search-widget .vertical .equity-qs-submit-button {
+	clear: both;
+}
+
+.equity-idx-search-widget .equity-qs-submit-button .fas {
+	margin: 0 5px 0 0;
+}
+
+
+/* =Property Showcase
+------------------------------------------------------------------------- */
+.showcase-property,
+.showcase-property p {
+	font-size: 14px;
+}
+.showcase-property .showcase-photo {
+	position: relative;
+	display: block;
+	margin-bottom: 0.4rem;
+}
+.showcase-property img {
+	border: 1px solid #999;
+}
+.showcase-property span.price {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px 10px;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 1;
+	background: rgba(255, 255, 255, 0.8);
+	
+}
+.showcase-property span.street {
+	display: block;
+}
+.showcase-property span.status {
+	display: none;
+}
+.showcase-property .address {
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+.showcase-property .beds-baths-sqft span {
+	margin: 0 10px 0 0;
+}
+
+
+/* =City Links
+------------------------------------------------------------------------- */
+.equity-city-links-widget ul {
+	margin: 0;
+}
+.equity-city-links-widget ul li {
+	list-style-type: none;
+}
+@media only screen and (min-width:40.063em) {
+	.equity-city-links-widget ul.columns:first-child {
+		padding-left: 0;
+	}
+}
+
+
+/* =Carousel
+------------------------------------------------------------------------- */
+.equity-idx-carousel {
+	overflow: hidden;
+	position: relative;
+}
+.home-top .equity-idx-carousel {
+	overflow: visible;
+}
+.equity-idx-carousel .owl-item .carousel-property {
+	margin: 0 10px;
+}
+.equity-idx-carousel .owl-item .carousel-photo {
+	position: relative;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.equity-idx-carousel .owl-item .carousel-photo img {
+	border: 1px solid #999;
+	width: auto\9;
+	max-width: 100%;
+	height: auto !important;
+	display: block;
+	-ms-interpolation-mode: bicubic; 
+}
+.equity-idx-carousel .owl-controls {
+	text-align: center;
+}
+.equity-idx-carousel .owl-controls i {
+	font-size: 24px;
+	display: block;
+}
+.equity-idx-carousel .owl-controls span {
+	text-transform: uppercase;
+	font-size: 12px;
+}
+.equity-idx-carousel .owl-controls .owl-prev {
+	float: left;
+}
+.equity-idx-carousel .owl-controls .owl-next {
+	float: right;
+}
+@media only screen and (min-width:40.063em) {
+	.home-top .equity-idx-carousel .property-details {
+		position: absolute;
+		width: 99.9%;
+		bottom: 0px;
+		left: 0px;
+		background: white;
+		background: rgba(255, 255, 255, 0.8);
+		padding: 12px 10px;
+	}
+}
+.sidebar .equity-idx-carousel span.price {
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	background: white;
+	background: rgba(255, 255, 255, 0.8);
+	padding: 6px 8px;
+	font-size: 16px;
+}
+.equity-idx-carousel span.price,
+.home-top .equity-idx-carousel span.price {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;	
+}
+@media only screen and (min-width:40.063em) {
+	.home-top .equity-idx-carousel span.price {
+		font-size: 24px;
+		line-height: 3;
+		float: left;
+		padding: 0 25px;
+	}
+}
+.equity-idx-carousel a p {
+	color: #444;
+	margin-bottom: 0.275rem;
+	display: block;
+}
+.home-top .equity-idx-carousel p.address,
+.home-top .equity-idx-carousel p.beds-baths-sqft {
+	display: block;
+}
+.home-top .equity-idx-carousel .owl-item .carousel-property {
+	margin: 0 10px;
+}
+.home-top .equity-idx-carousel {
+	position: relative;
+}
+.home-top .equity-idx-carousel .owl-controls i {
+	font-size: 32px;
+	width: 32px;
+	color: #999;
+}
+.home-top .equity-idx-carousel .owl-controls span {
+	display: none;
+}
+.home-top .equity-idx-carousel .owl-controls .owl-prev,
+.home-top .equity-idx-carousel .owl-controls .owl-next {
+	float: none;
+	margin: 0 30px;
+	display: inline-block;
+}
+@media only screen and (min-width:40.063em) {
+	.home-top .equity-idx-carousel .owl-controls .owl-prev,
+	.home-top .equity-idx-carousel .owl-controls .owl-next {
+		position: absolute;
+		margin: 0;
+		top: 43%;
+	}
+	.home-top .equity-idx-carousel .owl-controls i {
+		color: #fff;
+		color: rgba(255,255,255,0.7);
+	}
+	.home-top .equity-idx-carousel .owl-controls .owl-prev {
+		left: 2rem;
+	}
+	.home-top .equity-idx-carousel .owl-controls .owl-next {
+		right: 2rem;
+	}
+}
+
+
+/* =IDX Dashboard - Carousel widget
+------------------------------------------------------------------------- */
+.home div[id*="IDX-carouselGallery-"] {
+	width: 100%;
+	font-size: 16px !important;
+	line-height: 1.5;
+}
+.home div[id*="IDX-carouselGallery-"] .IDX-carouselPrrce,
+.home div[id*="IDX-carouselGallery-"] .IDX-carouselPrice {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.home div[id*="IDX-carouselGallery-"] .IDX-carouselCell {
+	border: none !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none !important;
+	margin: 0 3px;
+	padding-bottom: 20px !important;
+}
+.home div[id*="IDX-carouselGallery-"] .IDX-carouselPhoto {
+	border: 1px solid #999;
+ 	margin-bottom: 10px;
+}
+.home div[id*="IDX-carouselGallery-"] a.IDX-carouselArrow {
+	background: none !important;
+	color: #666 !important;
+	font-size: 40px !important;
+	font-weight: bold;
+}
+.home div[id*="IDX-carouselGallery-"] a.IDX-carouselArrow:hover {
+	color: #333 !important;
+}
+.home div[id*="IDX-carouselGallery-"] a.IDX-carouselArrow span {
+	top: 40% !important;
+}
+
+/* =IDX Dashboard - Showcase widget
+------------------------------------------------------------------------- */
+.footer-widgets div[id*="IDX-showcaseGallery-"] .IDX-showcaseCell,
+.sidebar div[id*="IDX-showcaseGallery-"] .IDX-showcaseCell {
+	border: none !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none !important;
+	width: 100% !important;
+	max-width: none !important;
+	height: auto !important;
+	padding: 0 !important;
+	font-size: 16px !important;
+}
+.footer-widgets div[id*="IDX-showcaseGallery-"] .IDX-showcaseContainer,
+.sidebar div[id*="IDX-showcaseGallery-"] .IDX-showcaseContainer {
+	padding: 0 !important;
+	line-height: 1.5;
+}
+.footer-widgets div[id*="IDX-showcaseGallery-"] .IDX-showcasePhoto,
+.sidebar div[id*="IDX-showcaseTable-"] .IDX-showcasePhoto {
+	max-height: none !important;
+	border: 1px solid #999;
+	margin-bottom: 10px;
+}
+.footer-widgets div[id*="IDX-showcaseGallery-"] .IDX-showcasePrice {
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+/* =IDX Dashboard - Featured Agent widget
+------------------------------------------------------------------------- */
+#IDX-featuredAgentWrap {
+	border: none !important;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none !important;
+}
+#IDX-featAgentImg {
+	width: auto !important;
+	height: auto !important;
+	border: 1px solid #999;
+}
+#IDX-featuredAgentCaption {
+	text-shadow: none !important;
+	font-weight: normal !important;
+	font-size: inherit !important;
+	text-align: left !important;
+}
